@@ -33,10 +33,10 @@ class ResultadoDepresionQuiz : AppCompatActivity() {
             oTV_Explicacion.text="En este nivel de depresión se recomienda buscar apoyo profesional, acudir a un proceso de terapia psicológica y Psiquiátrica.";
         }else if(oResultado<=4){
             oTV_Anuncio.text="Tu nivel de depresión  es: UNA POSIBLE NEGACION DE LA DEPRESION";
-            oTV_Explicacion.text="Se recomienda revisar con su terapeuta los criterios de sus síntomas.";
+            oTV_Explicacion.text="Se recomienda revisar con su psicoterapeuta los criterios de sus síntomas.";
         }else if(oResultado>=40){
             oTV_Anuncio.text="Tu nivel de depresión  es: UNA POSIBLE EXAGERACION DE LA DEPRESION";
-            oTV_Explicacion.text="Se recomienda revisar con su terapeuta los criterios de sus síntomas.";
+            oTV_Explicacion.text="Se recomienda revisar con su psicoterapeuta los criterios de sus síntomas.";
         }
         oBtn.setOnClickListener{
             startActivity(Intent(this@ResultadoDepresionQuiz, MainActivity::class.java))

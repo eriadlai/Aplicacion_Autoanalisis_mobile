@@ -12,7 +12,7 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.proy_hackaton_kotlin.ui.home.EstresFragment"
-        android:label="Estres"
+        android:label="Estrés"
         tools:layout="@layout/fragment_home" />
 
     <fragment
@@ -24,7 +24,7 @@
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.proy_hackaton_kotlin.ui.slideshow.DepresionFragment"
-        android:label="Depresion"
+        android:label="Depresión"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_infoAnsiedad"
