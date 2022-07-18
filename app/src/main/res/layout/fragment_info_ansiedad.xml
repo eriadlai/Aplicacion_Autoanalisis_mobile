@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/oPrimary"
+    tools:context=".ui.informacion.InfoAnsiedadFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/oPrimary"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/oTVInfoAnsiedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="Apartado informativo sobre la ansiedad:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="¿Que es la Ansiedad?"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Sentir ansiedad de modo ocasional es una parte normal de la vida. Sin embargo,
+las personas con trastornos de ansiedad con frecuencia tienen preocupaciones y
+miedos intensos, excesivos y persistentes sobre situaciones diarias. Con
+frecuencia, en los trastornos de ansiedad se dan episodios repetidos de
+sentimientos repentinos de ansiedad intensa y miedo o terror que alcanzan un
+máximo en una cuestión de minutos (ataques de pánico)."
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Estos sentimientos de ansiedad y pánico interfieren con las actividades diarias,
+son difíciles de controlar, son desproporcionados en comparación con el peligro
+real y pueden durar un largo tiempo. Con el propósito de prevenir estos
+sentimientos, puede suceder que evites ciertos lugares o situaciones. Los
+síntomas pueden empezar en la infancia o la adolescencia y continuar hasta la
+edad adulta.
+"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Síntomas"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Los signos y síntomas de la ansiedad más comunes incluyen los siguientes:"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Sensación de nerviosismo, agitación o tensión"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Sensación de peligro inminente, pánico o catástrofe"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Aumento del ritmo cardíaco"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Respiración acelerada (hiperventilación)"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Sudoración"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Temblores"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Sensación de debilidad o cansancio"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Problemas para concentrarse o para pensar en otra cosa que no sea la
+preocupación actual"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Tener problemas para conciliar el sueño"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Padecer problemas gastrointestinales (GI)"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Tener dificultades para controlar las preocupaciones"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Tener la necesidad de evitar las situaciones que generan ansiedad"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Tipos de Trastornos de Ansiedad"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• La agorafobia es un tipo de trastorno de ansiedad en el que temes a lugares
+y situaciones que pueden causarte pánico o hacerte sentir atrapado,
+indefenso o avergonzado y a menudo intentas evitarlos."
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• El trastorno de ansiedad debido a una enfermedad incluye síntomas de
+ansiedad o pánico intensos que son directamente causados por un problema
+de salud físico"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• El trastorno de ansiedad generalizada se caracteriza por una ansiedad y
+una preocupación persistentes y excesivas por actividades o eventos, incluso
+asuntos comunes de rutina. La preocupación es desproporcionada con
+respecto a la situación actual, es difícil de controlar y afecta la forma en que
+te sientes físicamente. A menudo sucede junto con otros trastornos de
+ansiedad o con la depresión"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• El trastorno de pánico implica episodios repetidos de sensaciones
+repentinas de ansiedad y miedo o terror intensos que alcanzan un nivel
+máximo en minutos (ataques de pánico). Puedes tener sensaciones de una
+catástrofe inminente, dificultad para respirar, dolor en el pecho o latidos
+rápidos, fuertes o como aleteos (palpitaciones cardíacas). Estos ataques de
+pánico pueden provocar que a la persona le preocupe que sucedan de nuevo
+o que evite situaciones en las que han sucedido."
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• El mutismo selectivo es una incapacidad constante que tienen los niños
+para hablar en ciertas situaciones, como en la escuela, incluso cuando
+pueden hablar en otras situaciones, como en el hogar con miembros
+cercanos de la familia. Esto puede afectar el desempeño en la escuela, el
+trabajo o en la sociedad."
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Temblores"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• El trastorno de ansiedad por separación es un trastorno de la niñez que se
+caracteriza por una ansiedad que es excesiva para el nivel de desarrollo del
+niño y que se relaciona con la separación de los padres u otras personas que
+cumplen una función paternal."
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Problemas para concentrarse o para pensar en otra cosa que no sea la
+preocupación actual"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• El trastorno de ansiedad social (fobia social) implica altos niveles de
+ansiedad, miedo o rechazo a situaciones sociales debido a sentimientos de
+vergüenza, inseguridad y preocupación por ser juzgado o percibido de
+manera negativa por otras personas."
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Las fobias específicas se caracterizan por una notable ansiedad cuando la
+persona se ve expuesta a un objeto o situación específicos, y un deseo por
+evitarlos. En algunas personas, las fobias provocan ataques de pánico"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• El trastorno de ansiedad inducido por sustancias se caracteriza por
+síntomas de ansiedad o pánico intensos que son el resultado directo del uso
+indebido de drogas, como tomar medicamentos, estar expuesto a una
+sustancia tóxica o tener abstinencia a causa de las drogas"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Otro trastorno de ansiedad específico y no específico es un término para
+la ansiedad y las fobias que no cumplen con los criterios exactos para algún
+otro trastorno de ansiedad pero que son lo suficientemente relevantes para
+ser alarmantes y perturbadores"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Factores de riesgo"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Los siguientes factores pueden incrementar el riesgo de padecer un trastorno de
+ansiedad:"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Trauma. Los niños que soportaron maltratos o traumas o que presenciaron
+eventos traumáticos tienen mayor riesgo de manifestar un trastorno de
+ansiedad en algún momento de sus vidas. Los adultos que atraviesan un
+evento traumático también pueden manifestar trastornos de ansiedad.
+"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Estrés debido a una enfermedad. Tener un problema de salud o una
+enfermedad grave puede causar gran preocupación acerca de cuestiones
+como el tratamiento y el futuro."
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Acumulación de estrés. Un evento importante o una acumulación de
+situaciones estresantes más pequeñas de la vida pueden provocar ansiedad
+excesiva, por ejemplo, la muerte de algún familiar, estrés en el trabajo o
+preocupaciones continuas por la situación financiera."
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Personalidad. Las personas con determinados tipos de personalidad son
+más propensas a sufrir trastornos de ansiedad que otras personas."
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Tener familiares consanguíneos que padecen un trastorno de
+ansiedad. Los trastornos de ansiedad pueden ser hereditarios"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Drogas o alcohol. El consumo o el uso indebido o la abstinencia de drogas o
+alcohol pueden provocar o empeorar la ansiedad."
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Complicaciones"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="El trastorno de ansiedad no implica solamente estar preocupado. También puede
+ocasionar, o empeorar, otros trastornos mentales y físicos, como los siguientes:"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Depresión (que a menudo se produce junto con un trastorno de ansiedad) u
+otros trastornos de salud mental.
+"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Abuso de sustancias"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Problemas para dormir (insomnio)"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Problemas digestivos o intestinales"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Dolor de cabeza y dolor crónico"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Aislamiento social"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Problemas en la escuela o el trabajo"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Mala calidad de vida"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Suicidio"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Prevención"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="No es posible prever con certeza qué causa que una persona presente un
+trastorno de ansiedad, pero puedes tomar medidas para reducir el impacto de los
+síntomas si te sientes ansioso:"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Pide ayuda enseguida. La ansiedad, como muchos otros trastornos
+mentales, puede ser más difícil de tratar si te demoras"
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Mantente activo. Participa en actividades que disfrutes y que te hagan sentir
+bien contigo mismo. Disfruta la interacción social y tus afectos, que pueden
+aliviar tus preocupaciones."
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="• Evita el consumo de alcohol o drogas. El consumo de alcohol y drogas
+puede provocar ansiedad o empeorarla. Si eres adicto a cualquiera de estas
+sustancias, la idea de dejar de consumir puede hacerte sentir ansioso. Si no
+puedes dejar de consumir por tu cuenta, consulta con tu médico o busca un
+grupo de apoyo para que te ayuden."
+                    android:textColor="#757575"
+                    android:textStyle="italic"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

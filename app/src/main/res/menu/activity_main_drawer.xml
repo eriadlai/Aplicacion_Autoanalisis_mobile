@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Menu Principal" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_blur_on_24"
+            android:title="Cuestionario de Ansiedad" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_mood_bad_24"
+            android:title="Cuestionario de Depresión" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_sensor_occupied_24"
+            android:title="Cuestionario de Estrés" />
+        <item
+            android:id="@+id/nav_infoAnsiedad"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Informacion Ansiedad" />
+        <item
+            android:id="@+id/nav_infoDepresion"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Informacion Depresión" />
+        <item
+            android:id="@+id/nav_infoEstres"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Informacion Estrés" />
+    </group>
+</menu>

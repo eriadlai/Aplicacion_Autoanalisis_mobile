@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/drawable/default_option_border_bg.xml" value="0.2465" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2465" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/drawable/selected_option_border_bg.xml" value="0.2465" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/drawable/side_nav_bar.xml" value="0.2465" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/activity_ansiedad_quiz_view.xml" value="0.33" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/activity_depresion_quiz_view.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/activity_estres_quiz_view.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/activity_main.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/activity_resultado_ansiedad_quiz.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/activity_resultado_depresion_quiz.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/activity_resultado_estres_quiz.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/app_bar_main.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/content_main.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/fragment_gallery.xml" value="0.33" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/fragment_home.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/fragment_info_ansiedad.xml" value="0.2823529411764706" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/fragment_info_depresion.xml" value="0.1" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/fragment_info_estres.xml" value="0.1" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/fragment_menu.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/fragment_slideshow.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/layout/nav_header_main.xml" value="0.3582427536231884" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/menu/activity_main_drawer.xml" value="0.3875" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/menu/main.xml" value="0.3875" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2465" />
+        <entry key="..\:/Documentos SSD/Programacion SSD/proy_hackaton_kotlin/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2465" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
